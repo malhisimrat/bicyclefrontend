@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                echo 'Cloning the GitHub repository...'
+                echo 'Cloning the GitHub repository kanika maam lyi...'
                 git branch: 'main', url: 'https://github.com/malhisimrat/bicyclefrontend.git'
             }
         }
